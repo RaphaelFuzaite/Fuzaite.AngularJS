@@ -1,0 +1,350 @@
+[ng-cloak]
+{
+    display: block !important;
+}
+
+.ui.input input {
+	width: 100%;
+}
+
+.ui.buttons .or:before {
+	content: "ou";	
+}
+
+html, body {
+	height: 100%;
+}
+.ui.grid {
+	height: 100%;
+}
+
+.dimmed.dimmable>:not(.dimmer) {
+	filter: blur(1px) grayscale(.4);
+	-webkit-filter: blur(1px) grayscale(.4);
+}
+
+.ui.dimmer {
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, .6);
+}
+
+.ui.loading.form:before {
+	background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.ui.grid header.column {
+	padding-right: 0px !important;
+}
+
+.ng-table-pagination {
+    box-shadow: none;
+    margin: 0 0 0 .5rem;
+    padding: 0px;
+    border-radius: .28571429rem;
+    min-height: 2.85714286em;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    font-size: 1rem;
+    vertical-align: baseline;
+}
+
+.ng-table-pagination li {
+    list-style-type: none;
+    cursor: pointer;
+    background: #e0e1e2;
+    color: #333;
+}
+
+.ng-table-pagination li a {
+    min-width: 3em;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    vertical-align: middle;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: 0 0;
+    padding: .82857143em 1.04285714em;
+    text-transform: none;
+    color: #040404;
+    font-weight: 400;
+    height: 40px;
+    -webkit-transition: background .1s ease,box-shadow .1s ease,color .1s ease;
+    transition: background .1s ease,box-shadow .1s ease,color .1s ease;
+}
+
+.ng-table-pagination li a:hover {
+    cursor: pointer;
+    color: #333;
+    background-color: #cacbcd;
+}
+
+.ng-table-pagination >li:first-child a:hover {
+    border-top-left-radius: .28571429rem;
+    border-bottom-left-radius: .28571429rem;
+    height: 40px;
+}
+
+.ng-table-pagination >li:last-child a:hover {
+    border-top-right-radius: .28571429rem;
+    border-bottom-right-radius: .28571429rem;
+    height: 40px;
+}
+
+.ng-table-pagination >li:first-child {
+    border-top-left-radius: .28571429rem;
+    border-bottom-left-radius: .28571429rem;
+}
+
+.ng-table-pagination >li:last-child {
+    border-top-right-radius: .28571429rem;
+    border-bottom-right-radius: .28571429rem;
+    
+}
+
+.ng-table-pagination li a[ng-switch-when="prev"],
+.ng-table-pagination li a[ng-switch-when="next"] {
+    color: transparent;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    vertical-align: top;
+    opacity: .9;
+    float: none;
+    font-size: 1em;
+    display: inline-block;
+    font-family: Icons;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    text-align: center;
+    speak: none;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.ng-table-pagination li a[ng-switch-when="prev"]:after {
+    content: "\f060";
+    color: #040404;
+    margin-left: -2px;
+}
+
+.ng-table-pagination li a[ng-switch-when="next"]:after {
+    content: "\f061";
+    color: #040404;
+    margin-right: -2px;
+}
+
+.ng-table-pagination li.active,
+.ng-table-pagination li.active:hover {
+    color: #333;
+    background-color: #cacbcd;
+    font-weight: 400;
+    box-shadow: none;
+}
+
+.ng-table-pagination li.disabled a,
+.ng-table-pagination li.disabled a:hover {
+    cursor: default;
+    background-color: transparent!important;
+}
+
+.ng-table-pagination li.disabled a[ng-switch-when="prev"]:after,
+.ng-table-pagination li.disabled a[ng-switch-when="next"]:after {
+    color: #171717;
+}
+
+.ng-table-counts {
+    float: right;
+    box-shadow: none;
+    border-radius: .28571429rem;
+    min-height: 2.85714286em;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    font-size: 1rem;
+    vertical-align: baseline;
+    margin: 0 .25em 0 0;
+}
+
+.ng-table-counts button {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    border-radius: 0;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    background: #e0e1e2;
+    color: #333;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    padding: .92857143em 1.14285714em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    will-change: '';
+    -webkit-tap-highlight-color: transparent;    
+}
+
+.ng-table-counts button:first-child {
+    border-left: none;
+    margin-left: 0;
+    border-top-left-radius: .28571429rem;
+    border-bottom-left-radius: .28571429rem;
+}
+
+.ng-table-counts button:last-child {
+    border-top-right-radius: .28571429rem;
+    border-bottom-right-radius: .28571429rem;
+}
+
+.ng-table-counts button.active,
+.ng-table-counts button:hover {
+    background-image: none;
+    box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
+    color: #333;
+    background-color: #cacbcd;
+}
+
+.table tr.selectable {
+    cursor: pointer;
+}
+
+.table thead th.header.sortable {
+    cursor: pointer;
+}
+
+.table thead th.header.sortable:hover {
+    opacity: .7; 
+}
+
+.table thead th.header.sortable::before,
+.table thead th.header.sort-asc::before,
+.table thead th.header.sort-desc::before {
+    opacity: 0.6;
+    margin: 0 .25rem 0 0;
+    width: 1.18em;
+    font-family: Icons;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    text-align: center;
+    speak: none;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    float: right;    
+    color: #FFF;
+}
+
+.table thead th.header.sortable::before {
+    content: "\f0dc";
+}
+
+.table thead th.header.sort-asc::before {
+    content: "\f160";
+}
+
+.table thead th.header.sort-desc::before {
+    content: "\f161";
+}
+
+.ng-table .ng-table-filters {
+    display: table-row !important;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .71428571em;
+}
+
+.ng-table .ng-table-filters div > div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.ng-table .ng-table-filters input {
+    margin: 0;
+    max-width: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    text-align: left;
+    line-height: 1.2142em;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    padding: .67861429em 1em;
+    background: #fff;
+    border: 1px solid rgba(34,36,38,.15);
+    color: rgba(0,0,0,.87);
+    border-radius: .28571429rem;
+    -webkit-transition: box-shadow .1s ease,border-color .1s ease;
+    transition: box-shadow .1s ease,border-color .1s ease;
+    box-shadow: none;
+}
+
+.ng-table .ng-table-filters input:focus {
+    border-color: #85b7d9;
+    background: #fff;
+    color: rgba(0,0,0,.8);
+    box-shadow: none;
+}
+
+.ng-table th.sortable .sort-indicator:before,
+.ng-table th.sortable .sort-indicator:after {
+    display: none;
+}

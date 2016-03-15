@@ -1,0 +1,22 @@
+{
+  "name": "Fuzaite.AngularJS",
+  "authors": [
+    "Raphael Fuzaite"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic": "semantic-ui#^2.1.8",
+    "angular-local-storage": "^0.2.5",
+    "angular": "^1.5.0",
+    "jquery": "^2.2.1",
+    "ng-table": "^0.8.3"
+  }
+}
